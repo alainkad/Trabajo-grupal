@@ -1,0 +1,235 @@
+
+.contenedor-padre{
+    width: 100%;
+    height: auto;
+    background-color:;
+}
+/*contenedor-cabezara-bottom*/
+
+                    .contenedor-cabezera{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    height:222px ;
+    margin:;
+    flex-direction: row-reverse;
+    padding:0px;
+}
+
+.contenedor-logo
+{
+width: 50%;
+height:;   
+padding:1px; 
+}
+.imagen-logo
+{
+    width:45% ;
+    height:auto;
+    padding: 1px;
+ }
+.contenedor-boton
+{
+width:20%;
+height:auto;
+border:1px;
+padding:1px;
+float:right;
+background-color:red;
+
+}
+.boton-usuario
+{
+ border-radius: 25px;
+ background-color: red;
+color: white;
+}
+                /*contenedor navegador*/
+.contenedor-navegador   
+{
+width: 100%;
+height:auto;
+background-color:#da291c;
+display: flex;
+align-content:center ;
+align-items:end;
+padding: 50px ;
+}
+
+
+                /*contenedor-lista-ordenada*/
+.contenedor-lista
+{
+    width:100%;
+    height:;
+    align-content:center;
+    display:flex;
+    text-decoration:none;
+  border: 1px solid #ccc;
+  padding: 1px;
+   
+   
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content:center ;
+    align-items:end;
+    list-style: none;
+    color: ;
+}
+li a
+{
+margin:0;  
+text-decoration:none;
+padding:3px;
+font-family:'Times New Roman',Times,serif;
+background-color:#da291c;
+width:7%;
+height:auto ;
+display:block;
+border:1px;
+font-size:12px;
+font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+color: white;
+}
+
+
+
+                /*contenedor de informacion y contenedor lateral*/
+
+                    /*contenido-de-pagina*/
+
+
+.contenedor-publicidad{
+    width:100%;
+    height:auto;
+    padding: 50px;
+}
+
+
+
+.imagen-publicitaria{
+    width: 100%;
+    height:auto ;
+    padding:10px;
+    border-radius:10px;
+
+}
+.contenedor-equipos
+{
+    display:flex;
+    width:100%;
+    height:auto;
+    padding: 50px;
+    background-color:beige ;
+}
+.contenedor-equipos2
+{
+    display:flex;
+    width:100%;
+    height:auto;
+    padding:50px;
+}
+
+
+.equipos{
+    width:100%;
+    height: auto;
+    border-radius:15px;
+}
+.imagenes{
+    width:25% ;
+    margin:15px ;
+    border-radius: 10px;
+    height: auto;
+    background-color: beige;
+
+}
+.botondimg{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    border-radius:10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:
+}
+
+                        /*contenedor-lateral*/
+
+.contenedor-lateral{ 
+    width:40%;
+    background-color:;
+    height:auto;
+    float:right;
+    padding-top:50px;
+    display: flex;
+    
+}
+.contenedor-deseccionylateral
+{
+    width:100%;
+    height:auto;
+    background-color:beige;
+
+  
+}
+.contenedor-seccion
+{
+    width:100%;
+    height:auto;
+    border-color:2px;
+    border:1px ;
+    background-color:beige;
+    padding-top: ;
+ }
+.contenedor-formulario{
+    width:100%;
+    height:100%;
+    background-color:red;
+    text-align: center;
+    padding: 10px;
+    border-bottom:0;
+    border-radius: 25px;
+
+    
+}
+input{
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    cursor: ;
+    border: 1px solid red;
+    box-shadow: 0 0 5px rgba (0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.boton{
+    padding:1px;
+    border-radius:10px;
+    color: black;
+    width:50% ;
+    
+}
+.tituloformulario{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+                        /*contenedor pie de pagina*/
+.contenedor-piepagina
+{
+width: 100%;
+height:auto;
+background-color:red;
+}
+
+.contenedor-texto{
+ text-align: center;   
+ color: white;
+
+}
+.Titulo2{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
