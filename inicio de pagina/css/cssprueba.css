@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,html {
+  height: 100%;
+}
+
+header, nav, main, footer {
+  width: 100%;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  display:flex;
+}
+
+section {
+  width: 80%;
+  background-color: #eee;
+  padding: 20px;
+}
+
+aside {
+  width: 20%;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.menu-container {
+    width: 100%; /* Ajusta el ancho según tu diseño */
+  }
+  
+  .horizontal-list {
+    list-style-type: none; /* Quita los puntos de lista predeterminados */
+    padding: 0; /* Quita el relleno predeterminado */
+  }
+  
+  .horizontal-list li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 10px; /* Añade un margen a la derecha para separar los elementos */
+  }
+  
+  .horizontal-list li a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    width: 100px;
+    height: 55px;
+    display: block; /* Hace que los enlaces ocupen todo el espacio del elemento li */
+  }
