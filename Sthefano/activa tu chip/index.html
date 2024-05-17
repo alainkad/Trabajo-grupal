@@ -10,26 +10,12 @@
 <body>
     <style>
     .bg-success {
-  --bs-bg-opacity: 1;
-  background-color: rgba(189, 0, 2) !important;
-}
-    .entry{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .h1h2{
-        display: flex;
-        flex-direction: column;
+        background-image: url(./img/clarochipentry.PNG);
+        background-repeat: no-repeat;
+        height: 369px;
     }
     .bg-mid{
-        --bs-bg-opacity: 1;
         background-color: rgba(244, 244, 244) !important;
-    }
-    .mid{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
     }
     .down{ 
         display: flex;
@@ -39,7 +25,7 @@
     .h1h2-asc{
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 100px;
     }
     .h1h2-ccmv{
         display: flex;
@@ -90,103 +76,137 @@
         margin-left: 30px;
     }
     .footer{
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
         background-color: rgba(31,29,29,255);
-        grid-template-areas: 
-        "c1 c2 c3 c4"
     }
-    .footer-p1{
-        margin: 60px;
-    }
-    .footer-p2{
-        margin: 60px;
-    }
-    .footer-p2-2{
-        margin-left: 50px;
-        display: flex;
-        flex-direction: column;
-        font-size: 12px;
-    }
-    .footer-p3{
-        margin: 60px;
-    }
-    .footer-p3-2{
-        font-size: 12px;
-    }
-    .footer-p4{
-        margin: 60px;
-        font-size: 12px;
-    }
-    </style>
-    <header class="d-flex justify-content-center align-items-center bg-cabezera">
-        <div>
-            <a href="http://127.0.0.1:5500/Trabajo-grupal/inicio%20de%20pagina/index.html"> <img class="logoclaro" src="/Trabajo-grupal/inicio de pagina/img/logoclaro.png" alt=""> </a>
 
+    </style>
+    <header class=" bg-cabezera">
+        <div>
         </div>
-        <nav class="contenedor-navegador">
-            <div class="contenedor-formulario">
-                <div class="contenedor-lista ">
-                    <ul class="ul text-white">
-                        <li><a href="">Servicios</a>
-                        <li><a href="">Prepago</a></li>
-                        <li><a href="/Trabajo-grupal/Sthefano/post pago/index.html">Postpago</a></li>
-                        <li><a href="/Trabajo-grupal/Sthefano/activa tu chip/index.html">Activa tu chip</a></li>
-                        <li><a href="">Beneficio movil</a></li>
-                        <li><a href="">veneficios moviles</a></li>
-                        <li><a href="">Cambiate a claro</a></li>
-                        <li><a href="">Promociones</a></li>
+        <nav class="navbar navbar-expand-md">
+            <a href="http://127.0.0.1:5500/Trabajo-grupal/inicio%20de%20pagina/index.html"> <img class="" style="width: 100px; height: 45px;" src="./img/clarologonav.PNG" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu-nav">
+                    <ul class="ul text-white bg-midclaro navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="">Servicios</a>
+                        <li class="nav-item"><a class="nav-link" href="">Prepago</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/post pago/index.html">Postpago</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/activa tu chip/index.html">Activa tu chip</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Beneficio movil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">veneficios moviles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Cambiate a claro</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Promociones</a></li>
                     </ul>
-                </div>
             </div>
         </nav>
     </header> 
     <section>
-        <div class="d-play justify-content-between bg-success entry">
-            <div class="h1h2-asc text-white">
+        <div class="d-flex align-items-center text-white bg-success col-12">
+            <div class="h1h2-asc">
                 <h1 class="">Activalo tú mismo</h1>
                 <h2 class="">¡Sin ir a Claro!</h2>
             </div>
-            <img class="" src="./img/Captura de pantalla (36).png" alt="">
         </div>
     </section>
     <section>
-        <div class="d-play justify-content-between bg-mid mid">
-            <div class="h1h2-ccmv">
-                <h3 class="">¡Con Claro puedes activar tu línea móvil</h3> <h3> Prepago o Postpago sin ir a Claro! </h3>
-                <p class="">Mira el video y conoce cómo puedes hacerlo. ¡Actívalo tú mismo desde donde estés! </p>
+        <div class="d-flex justify-content-between align-items-center bg-mid row">
+            <div class="col-md-4 col-12 mt-4">
+                <h3 class="text-center text-md-start">¡Con Claro puedes activar tu línea móvil</h3> <h3> Prepago o Postpago sin ir a Claro! </h3>
+                <p class="text-center text-md-start">Mira el video y conoce cómo puedes hacerlo. ¡Actívalo tú mismo desde donde estés! </p>
             </div>
-            <img class="image-vdccmv" src="./img/Captura de pantalla (37).png" alt="">
-        </div>
-    </section>
-    <section class="mid-low">
-        <div>
-            <h3 class="d-flex justify-content-center">Tú mismo puedes cambiarte a Claro o activar una línea nueva, en Prepago o Postpago. Compra tu chip y actívalo tú mismo.</h3>
-            <p class="d-flex justify-content-center">¡Activa tu línea en Prepago con tu Chip Actívalo tú mismo hasta el 31 de octubre y recibirás grandes bonos!</p>
-        </div>
-        <div class="d-flex justify-content-evenly">
-            <img src="./img/Captura de pantalla (39).png" alt=""><img src="./img/Captura de pantalla (40).png" alt="">
+            <div class="col-md-4 col-12">
+                <img class="col-12" src="./img/Captura de pantalla (37).png" alt="">
+            </div>
         </div>
     </section>
     <section>
-        <div class=""> 
-            <h3 class="d-flex justify-content-center mt-5 mb-5">Conoce como activar tu chip</h3>
-        </div>
-        <div class="down">
-            <div class="h1h2">
-                <h4 class="">Como cambiarte a postpago</h4>
-                <p class="">Recuerda que antes de empezar no debes insertar el chip en tu celular y tener acceso a internet.</p>
+        <div >
+            <div class="mt-4">
+                <h3 class="text-center text-md-center fw-bold">Tú mismo puedes cambiarte a Claro o activar una línea nueva, en Prepago o Postpago. Compra tu chip y actívalo tú mismo.</h3>
+                <p class="text-center text-md-center">¡Activa tu línea en Prepago con tu Chip Actívalo tú mismo hasta el 31 de octubre y recibirás grandes bonos!</p>
             </div>
-            <img src="./img/Captura de pantalla (41).png" alt="">
+            <div class="d-flex justify-content-center row">
+                <img class="m-4 shadow col-12 col-md-3" src="./img/Captura de pantalla (39).png" alt=""><img class="m-4 shadow col-12 col-md-3" src="./img/Captura de pantalla (40).png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row"> 
+            <h3 class="d-flex justify-content-center mt-5 mb-5 col-12">Conoce como activar tu chip</h3>
+        </div>
+        <div class="down row">
+            <div class="col-md-4">
+                <h4 class="text-center text-md-start">Como cambiarte a postpago</h4>
+                <p class="text-center text-md-start">Recuerda que antes de empezar no debes insertar el chip en tu celular y tener acceso a internet.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="col-12" src="./img/Captura de pantalla (41).png" alt="">
+            </div>
         </div>          
     </section>
-    <section class="footer text-white">
-        <div class="justify-content-center d-flex footer-p1">
-            <img src="/Trabajo-grupal/Sthefano/post pago/img/footer-redes.PNG" alt="">
+    <section>
+        <div>
+            <h3 class="fw-bold text-center text-md-center mt-5">¿Dónde comprar Chip Claro?</h3>
         </div>
-        <div class="footer-p2">
-                <div class="footer-p2-2">
-                <h5>De Utilidad</h5>
+        <div>
+            <div class="d-flex justify-content-evenly row m-3">
+                <img class="col-6 col-md-3 p-3" src="./img/tamboclaro.png" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/oxxoclaro.png" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/candyclaro.png" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/maquinaeclaro.png" alt="">
+            </div>
+            <div class="d-flex justify-content-evenly row m-3">    
+                <img class="col-6 col-md-3 p-3" src="./img/plazaveaclaro.webp" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/coolboxclaro.webp" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/tailoyclaro.webp" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/inkafarmaclaro.webp" alt="">
+            </div>
+            <div class="d-flex justify-content-evenly row m-3">
+                <img class="col-6 col-md-3 p-3" src="./img/mifarmaclaro.webp" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/tottusclaro.webp" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/apuestatotalclaro.webp" alt="">
+                <img class="col-6 col-md-3 p-3" src="./img/huaweiclaro.webp" alt="">
+            </div>
+        </div>        
+    </section>
+    <section>
+        <div class="d-flex justify-content-around align-items-center row">
+            <div class="col-md-6">
+                <img class="col-12" src="./img/tumismoclaro.webp" alt="">
+            </div>
+            <div class="col-md-6 col-12 text-center text-md-center mt-4 mb-4">
+                <h3 class="fw-bold">¡Recuerda!</h3>
+                <p>Tu nuevo Chip Actívalo tu mismo viene en un empaje rojo.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+            <img class="d-flex justify-content-start" src="./img/clarofooter.PNG" alt="" width="140px" height="60px">
+            <div class="d-flex justify-content">
+                <img style="width: 30px; height: 30px;" src="./img/facebookclaroredes.PNG" alt="">
+                <img style="width: 30px; height: 30px;" src="./img/twitterclaroredes.PNG" alt="">
+                <img style="width: 30px; height: 30px;" src="./img/igclaroredes.PNG" alt="">
+                <img style="width: 30px; height: 30px;" src="./img/youtubeclaroredes.PNG" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+                <p>Para ventas y servicios</p> <p>Para información</p>
+            </div>
+            <div class="text-primary d-flex justify-content-between">
+                <p>0800 00200</p> <p>0800 00123</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <img src="./img/librodereclamacionesclaro.PNG" alt="">
+                <img style="border-radius: 50px;"  src="./img/nosimportaclaro.PNG" alt="">
+            </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
+            <div>
+                <h5 class="mb-3">De Utilidad</h5>
                 <p>Consulta de IMEI</p>
                 <p>Celulares 5G</p>
                 <p>Planes Hogar</p>
@@ -196,9 +216,9 @@
                 <p>Llamada por llamada</p>
             </div>
         </div>
-        <div class="footer-p3">
-            <div class="footer-p3-2">
-                <h5>Nos Hacemos Cargo</h5>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
+            <div>
+                <h5 class="mb-3">Nos Hacemos Cargo</h5>
                 <p>Devoluciones por interrupciones</p>
                 <p>Atención de reclamos</p>
                 <p>Consulta de reclamos</p>
@@ -206,8 +226,8 @@
                 <p>Mensaje de Seguridad</p>
             </div>
         </div>
-        <div class="footer-p4">
-            <h5>Institucional</h5>
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-5">
+            <h5 class="mb-3">Institucional</h5>
             <p>Sobre nosotros</p>
             <p>Sustentabilidad</p>
             <p>Centro de prensa</p>
@@ -216,7 +236,9 @@
             <p>Trabajos de mantenimiento</p>
             <p>Portal de denuncias</p>
         </div>
-    </section>
+        </div>
+        </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

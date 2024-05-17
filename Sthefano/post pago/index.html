@@ -7,17 +7,21 @@
     <title> Pagina web de claro </title>
 </head>
 <style>
-    .entry{
-        display: flex;
-        justify-content: center;
-        }
+    .bg-descuento{
+        background-image: url(./img/claromidimage.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+
+    }
     .b-claro{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .p-claro{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+
     }
     .max{
         display: flex;
@@ -30,7 +34,7 @@
     display: flex;
     align-content:center ;
     align-items:end;
-    padding: 50px ;
+    padding: 10px ;
     }
     .contenedor-lista{
     width: 100%;
@@ -43,7 +47,6 @@
     text-decoration: none;
     display: flex;
     justify-content: space-evenly;
-    font-weight: ;
     list-style: none;
     }
     .contenedor-formulario{
@@ -53,7 +56,6 @@
     text-align: center;
     padding: 10px;
     border-bottom:0;
-    border-radius:;
 }
     .bg-cabezera{
         background-color: rgba(218,41,28,255) !important;
@@ -63,139 +65,493 @@
         height: 200px;
         margin-left: 30px;
     }
-    .bg-descuento{
-        background-color: rgba(30,30,30,255);
-    }
     .h2-dsc{
-        margin-left: 200px  ;
+        margin: 205px;
+        padding-right: 800px;
     }
     .image-dsc{
         margin-left: 215px;
     }
     .footer{
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+
         background-color: rgba(31,29,29,255);
-        grid-template-areas: 
-        "c1 c2 c3 c4"
     }
-    .footer-p1{
-        margin: 60px;
+    .soc{
+        font-size: 11px;
     }
-    .footer-p2{
-        margin: 60px;
+    .bg-ti{
+        background-color: rgba(244,244,244,255);
     }
-    .footer-p2-2{
-        margin-left: 50px;
+    .boton-to{
+        padding: 8px;
+        border-radius: 50px;
+        background-color: rgba(212,40,27,255);
+    }
+    .mline{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .soc2{
+        font-size: 9px;
+    }
+    .boton-to2{
+        padding: 6px;
+        border-radius: 50px;
+        background-color: rgba(212,40,27,255);
+    }
+    .bg-celmasped{
+        background-color: rgba(244,244,244,255);
+    }
+    .bg-dencmd{
+        background-color: white;
+        border: solid white;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .tableclaro{
         display: flex;
-        flex-direction: column;
-        font-size: 12px;
+        justify-content: center;
+        font-weight: 250;
+        text-align: center;
+        
     }
-    .footer-p3{
-        margin: 60px;
+    th{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 15px;
     }
-    .footer-p3-2{
-        font-size: 12px;
+    td{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 15px;
+        border-bottom: solid 10px white;
+        text-align: center;
     }
-    .footer-p4{
-        margin: 60px;
-        font-size: 12px;
+    .maxilimitado{
+        margin: 50px;
     }
+
 </style>
 <body>
-    <header class="d-flex justify-content-center align-items-center bg-cabezera">
+    <header class=" bg-cabezera">
         <div>
-            <a href="http://127.0.0.1:5500/Trabajo-grupal/inicio%20de%20pagina/index.html"> <img class="logoclaro" src="/Trabajo-grupal/inicio de pagina/img/logoclaro.png" alt=""> </a>
-
         </div>
-        <nav class="contenedor-navegador">
-            <div class="contenedor-formulario">
-                <div class="contenedor-lista ">
-                    <ul class="ul text-white">
-                        <li><a href="">Servicios</a>
-                        <li><a href="">Prepago</a></li>
-                        <li><a href="/Trabajo-grupal/Sthefano/post pago/index.html">Postpago</a></li>
-                        <li><a href="/Trabajo-grupal/Sthefano/activa tu chip/index.html">Activa tu chip</a></li>
-                        <li><a href="">Beneficio movil</a></li>
-                        <li><a href="">veneficios moviles</a></li>
-                        <li><a href="">Cambiate a claro</a></li>
-                        <li><a href="">Promociones</a></li>
+        <nav class="navbar navbar-expand-md">
+            <a href="http://127.0.0.1:5500/Trabajo-grupal/inicio%20de%20pagina/index.html"> <img class="" style="width: 100px; height: 45px;" src="./img/clarologonav.PNG" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu-nav">
+                    <ul class="ul text-white bg-midclaro navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="">Servicios</a>
+                        <li class="nav-item"><a class="nav-link" href="">Prepago</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/post pago/index.html">Postpago</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/activa tu chip/index.html">Activa tu chip</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Beneficio movil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">veneficios moviles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Cambiate a claro</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Promociones</a></li>
                     </ul>
-                </div>
             </div>
         </nav>
     </header> 
 
-    <div class="entry align-items-center justify-content-around bg-descuento text-white">
-        <h2 class="h2-dsc">Postpago: Internet Ilimitado es un buen plan</h2> 
-        <img src="./img/Captura.PNG" height="400px" class="image-dsc">
+    <div class="bg-descuento d-flex justify-content-center align-items-center col-12">
+        <h2 class="text-white text-center">Postpago: Internet Ilimitado es un buen plan</h2> 
     </div>
-    <section> 
+    <section class="maxilimitado"> 
         <div class="max">
         <h2>MAX ILIMITADO</h2>
         </div>
-        <div class="max">
-           <img src="./img/maxi.PNG" alt="" height="500px"> 
-           <img src="./img/maxi 2.PNG" alt="" height="500px"> 
-           <img src="./img/maxi 3.PNG" alt="" height="500px"> 
+        <div class="d-flex justify-content-around row">
+        <div class="col-12 col-md-3 mb-5 shadow">
+            <div>
+                <div class="d-flex justify-content-around">
+                    <img src="./img/MAX ILIMITADO.PNG" alt="" height="31px">
+                    <h4>S/69.90</h4>
+                </div>
+                <p class="soc d-flex justify-content-center">!Solo Online Cambiate y obten 20% Dto. en el cargo fijo x 3 meses</p>
+            </div>
+            <div class="bg-ti">
+                <div>
+                    <h5 class="text-danger d-flex justify-content-center">TODO ILIMITADO</h5>
+                </div>
+                <p class="soc d-flex justify-content-center">Gigas, Minutos y SMS </p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Gigas regulares del plan <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <h6>95 GB</h6>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Gigas con alta velocidad con Fullclaro <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <h6 class="text-danger">142.5 GB</h6>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Cobertura internacional <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <p class="soc">Latinoamerica y Zona Andina</p>
+            </div>
+            <a class="soc d-flex justify-content-end" href="">Ver más</a>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Suscripcion gratuita <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <img src="./img/clarovideo.PNG" alt="">
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Beneficios adicionales<img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <img src="./img/clarodriveclub.PNG" alt="">
+            </div>
+            <hr>
+            <div>
+                <p>Aplica para planes contratados y activados el 31.05.24</p>
+                <div class="d-flex justify-content-between">
+                    <a href="">Saber más</a>
+                    <button class="boton-to text-white"> <img src="./img/bolsitaclaro.PNG" alt="">Tienda online</button>
+                </div>
+            </div>
         </div>
-        <section>
-            <div class="b-claro">
-                <h2> Descubre los beneficios de ser parte de claro</h2>
+        <div class="col-12 col-md-3 mb-5 shadow">
+            <div>
+                <div class="d-flex justify-content-around">
+                    <img src="./img/MAX ILIMITADO.PNG" alt="" height="31px">
+                    <h4>S/79.90</h4>
+                </div>
+                <p class="soc d-flex justify-content-center">!Solo Online Cambiate y obten 20% Dto. en el cargo fijo x 3 meses</p>
             </div>
-            <div class="b-claro">
-                <img src="./img/bc 1.PNG" alt="">
-                <img src="./img/bc 2.PNG" alt="">
-                <img src="./img/bc 3.PNG" alt="">
+            <div class="bg-ti">
+                <div>
+                    <h5 class="text-danger d-flex justify-content-center">TODO ILIMITADO</h5>
+                </div>
+                <p class="soc d-flex justify-content-center">Gigas, Minutos y SMS </p>
             </div>
-        </section>
-        <section>
-            <div class="p-claro">
-                <h2> ¿Por qué tener un plan Claro con netflix</h2>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Gigas en alta velocidad del plan <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <h6>105 GB</h6>
             </div>
-            <div class="p-claro">
-                <img src="./img/pc 1.PNG" alt="">
-                <img src="./img/pc 2.PNG" alt="">
-                <img src="./img/pc 3.PNG" alt="">
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Gigas con alta velocidad con Fullclaro <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <h6 class="text-danger">157.5 GB</h6>
             </div>
-        </section>
-        <section class="footer text-white">
-            <div class="justify-content-center d-flex footer-p1">
-                <img src="./img/footer-redes.PNG" alt="">
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Cobertura internacional <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <p class="soc">Latinoamerica y Zona Andina</p>
             </div>
-            <div class="footer-p2">
-                    <div class="footer-p2-2">
-                    <h5>De Utilidad</h5>
-                    <p>Consulta de IMEI</p>
-                    <p>Celulares 5G</p>
-                    <p>Planes Hogar</p>
-                    <p>Consulta de líneas</p>
-                    <p>Test de velocidad de internet</p>
-                    <p>Comprobantes electrónicos</p>
-                    <p>Llamada por llamada</p>
+            <a class="soc d-flex justify-content-end" href="">Ver más</a>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Suscripcion gratuita <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <img src="./img/clarovideo.PNG" alt="">
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Beneficios adicionales<img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <img src="./img/clarodriveclub.PNG" alt="">
+            </div>
+            <hr>
+            <div>
+                <p>Aplica para planes contratados y activados el 31.05.24</p>
+                <div class="d-flex justify-content-between">
+                    <a href="">Saber más</a>
+                    <button class="boton-to text-white"> <img src="./img/bolsitaclaro.PNG" alt="">Tienda online</button>
                 </div>
             </div>
-            <div class="footer-p3">
-                <div class="footer-p3-2">
-                    <h5>Nos Hacemos Cargo</h5>
-                    <p>Devoluciones por interrupciones</p>
-                    <p>Atención de reclamos</p>
-                    <p>Consulta de reclamos</p>
-                    <p>Adquirientes iPhone 6, 6S y SE</p>
-                    <p>Mensaje de Seguridad</p>
+        </div>
+        <div class="col-12 col-md-3 mb-5 shadow">
+            <div>
+                <div class="d-flex justify-content-around">
+                    <img src="./img/MAX ILIMITADO.PNG" alt="" height="31px">
+                    <h4>S/95.90</h4>
+                </div>
+                <p class="soc d-flex justify-content-center">!Solo Online Cambiate y obten 20% Dto. en el cargo fijo x 3 meses</p>
+            </div>
+            <div class="bg-ti">
+                <div>
+                    <h5 class="text-danger d-flex justify-content-center">TODO ILIMITADO</h5>
+                </div>
+                <p class="soc d-flex justify-content-center">Gigas, Minutos y SMS </p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Gigas regulares del plan <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <h6>130 GB</h6>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Gigas con alta velocidad con Fullclaro <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <h6 class="text-danger">195 GB</h6>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Cobertura internacional <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <p class="soc">Latinoamerica y Zona Andina</p>
+            </div>
+            <a class="soc d-flex justify-content-end" href="">Ver más</a>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Suscripcion gratuita <img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <img src="./img/clarovideo.PNG" alt="">
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <p class="soc">Beneficios adicionales<img src="./img/signoexclamacionclaro.PNG" alt="" style="width: 20px; height: 20px;"></p>
+                <img src="./img/clarodriveclub.PNG" alt="">
+            </div>
+            <hr>
+            <div>
+                <p>Aplica para planes contratados y activados el 31.05.24</p>
+                <div class="d-flex justify-content-between">
+                    <a href="">Saber más</a>
+                    <button class="boton-to text-white"> <img src="./img/bolsitaclaro.PNG" alt="">Tienda online</button>
                 </div>
             </div>
-            <div class="footer-p4">
-                <h5>Institucional</h5>
-                <p>Sobre nosotros</p>
-                <p>Sustentabilidad</p>
-                <p>Centro de prensa</p>
-                <p>Trabaja en Claro</p>
-                <p>Proveedores</p>
-                <p>Trabajos de mantenimiento</p>
-                <p>Portal de denuncias</p>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="b-claro">
+            <h2 class="text-center"> Descubre los beneficios de ser parte de claro</h2>
+        </div>
+        <div class="b-claro row">
+            <img class="col-12 col-md-2 " src="./img/bc 1.PNG" alt="">
+            <img class="col-12 col-md-2 " src="./img/bc 2.PNG" alt="">
+            <img class="col-12 col-md-2 " src="./img/bc 3.PNG" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="p-claro">
+            <h2 class="text-center"> ¿Por qué tener un plan Claro con netflix</h2>
+        </div>
+        <div class="p-claro row">
+            <img class="col-12 col-md-2 " src="./img/pc 1.PNG" alt="">
+            <img class="col-12 col-md-2 " src="./img/pc 2.PNG" alt="">
+            <img class="col-12 col-md-2 " src="./img/pc 3.PNG" alt="">
+        </div>
+    </section>
+    <section class="mline">
+        <div class="d-flex justify-content-around row">
+            <div class="col-md-6">
+                <h2 class="text-center text-md-start col-md-12">¿Qué es postpago y cómo funciona?</h2>
+                <p class="text-center text-md-start col-md-12">Un servicio postpago movil, es un tipo de plan de telefonia que funciona pagando por el servicio movil</p>
+                <p class="text-center text-md-start col-md-12">utilizando cuando ya ha finalizado el mes de uso.</p>
             </div>
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <div class="col-md-6">
+                <img class="col-12" src="./img/clarotomandote.PNG" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="mline">
+        <div class="d-flex justify-content-around row">
+            <div class="col-md-6">
+                <h2 class="text-center text-md-start col-md-12">Planes Ilimitados de Claro</h2>
+                <h6 class="m-4 text-center text-md-start col-md-12">Cómo funcionan</h6>
+                <p class="text-center text-md-start col-md-12">Con un plan Max Ilimitado tienes una gran cantidad de gigas para navegar en alta velocidad. Si</p>
+                <p class="text-center text-md-start col-md-12">se te acaban, podrás seguir navegando ilimitadamente (solo que a una velocidad menor).</p>
+            </div>
+            <div class="col-md-6">
+                <img class="col-12" src="./img/claroredesimage.PNG" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-celmasped"> 
+        <h4 class="d-flex justify-content-center ">Tienda Claro</h4>
+        <div class="d-flex justify-content-evenly m-5 row">
+            <div class="mb-4 col-12 col-md-3" style="width: 300px;">
+                <p class="soc">TIENDA CLARO</p>
+                <h2 class="">Celulares más pedidos</h2>
+                <h3 class="mb-4">Nuevos celulares en lanzamiento</h3>
+                <button class="boton-to text-white">Vamos a la Tienda</button>
+            </div>
+            <div class="d-flex bg-dencmd mb-4 col-12 col-md-3"> 
+                <img src="./img/cierrapuertas.PNG" alt="" height="150px">
+                <div style="width: 150px;">
+                    <h6>Honor X8B 256gb Plata Titanio</h6>
+                    <p class="soc2">Max ilimitado 69.90</p>
+                    <p class="soc2">Precio del equipo</p>
+                    <p class="soc text-danger">S/869</p>
+                    <p class="soc2">Precio antes S/1099</p>             
+                    <button class="boton-to2 text-white">Comprar online</button>   
+                </div>
+            </div>
+            <div class="d-flex bg-dencmd mb-4 col-12 col-md-3"> 
+                <img src="./img/honorliteclaro.PNG" alt="" height="150px">
+                <div style="width: 150px;">
+                    <h6>Honor 90 Lite 5G 256gb Plata Titanio + Earbuds</h6>
+                    <p class="soc2">Max ilimitado 69.90</p>
+                    <p class="soc2">Precio del equipo</p>
+                    <p class="soc text-danger">S/769</p>
+                    <p class="soc2">Precio antes S/999</p>             
+                    <button class="boton-to2 text-white">Comprar online</button>   
+                </div>
+            </div>
+            <div class="d-flex bg-dencmd mb-4 col-12 col-md-3"> 
+                <img src="./img/sgalaxyclaro.PNG" alt="" height="150px">
+                <div style="width: 150px;">
+                    <h6>Samsung Galaxy A25 5G 256GB Negro</h6>
+                    <p class="soc2">Max ilimitado 69.90</p>
+                    <p class="soc2">Precio del equipo</p>
+                    <p class="soc text-danger">S/919</p>
+                    <p class="soc2">Precio antes S/1159</p>             
+                    <button class="boton-to2 text-white">Comprar online</button>   
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section>
+        <h3 class="d-flex justify-content-center text-center">¿Cuantós Gigas, minutos y SMS de mi plan MAX puedo usar en los países de Cobertura internacional?</h3>
+        <div class="table-responsive text-center">
+        <table class="tableclaro">
+            <tr>
+                <th>PLAN</th>
+                <th>MINUTOS</th>
+                <th>GIGAS</th>
+                <th>SMS</th>
+            </tr>
+            <tr>
+                <td>Max 29.90</td>
+                <td>30 Minutos</td>
+                <td>180 MB</td>
+                <td>100 SMS</td>
+            </tr>
+            <tr>
+                <td>Max 39.90</td>
+                <td>125 Minutos</td>
+                <td>1.3 GB</td>
+                <td>250 SMS</td>
+            </tr>
+            <tr>
+                <td>Max 49.90</td>
+                <td>200 Minutos</td>
+                <td>2.5 GB</td>
+                <td>250 SMS</td>
+            </tr>
+            <tr>
+                <td>Max 55.90</td>
+                <td>300 Minutos</td>
+                <td>3 GB</td>
+                <td>300 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Ilimitado 69.90</td>
+                <td>350 Minutos</td>
+                <td>3.5 GB</td>
+                <td>350 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Ilimitado 79.90</td>
+                <td>350 Minutos</td>
+                <td>4 GB</td>
+                <td>350 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Ilimitado 95.90</td>
+                <td>450 Minutos</td>
+                <td>7 GB</td>
+                <td>450 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Play 95 con Netflix</td>
+                <td>300 Minutos</td>
+                <td>2.5 GB</td>
+                <td>300 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Ilimitado 109.90</td>
+                <td>450 Minutos</td>
+                <td>10 GB</td>
+                <td>450 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Play 115 con Netflix</td>
+                <td>350 Minutos</td>
+                <td>3.5 GB</td>
+                <td>350 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Play 145 con Netflix</td>
+                <td>450 Minutos</td>
+                <td>9 GB</td>
+                <td>450 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Ilimitado 159.90</td>
+                <td>600 Minutos</td>
+                <td>13 GB</td>
+                <td>1000 SMS</td>
+            </tr>
+            <tr>
+                <td>Max Ilimitado 189.90</td>
+                <td>650 Minutos</td>
+                <td>25 GB</td>
+                <td>1000 SMS</td>
+            </tr>
+            <tr>
+            <td>Max Ilimitado 289.90</td>
+                <td>750 Minutos</td>
+                <td>25 GB</td>
+                <td>1000 SMS</td>
+            </tr>
+        </table>
+    </section>
+    <footer class="footer text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+            <img class="d-flex justify-content-start" src="./img/clarofooter.PNG" alt="" width="140px" height="60px">
+            <div class="d-flex justify-content">
+                <img style="width: 30px; height: 30px;" src="./img/facebookclaroredes.PNG" alt="">
+                <img style="width: 30px; height: 30px;" src="./img/twitterclaroredes.PNG" alt="">
+                <img style="width: 30px; height: 30px;" src="./img/igclaroredes.PNG" alt="">
+                <img style="width: 30px; height: 30px;" src="./img/youtubeclaroredes.PNG" alt="">
+            </div>
+            <div class="d-flex justify-content-between">
+                <p>Para ventas y servicios</p> <p>Para información</p>
+            </div>
+            <div class="text-primary d-flex justify-content-between">
+                <p>0800 00200</p> <p>0800 00123</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <img src="./img/librodereclamacionesclaro.PNG" alt="">
+                <img style="border-radius: 50px;"  src="./img/nosimportaclaro.PNG" alt="">
+            </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
+            <div>
+                <h5 class="mb-3">De Utilidad</h5>
+                <p>Consulta de IMEI</p>
+                <p>Celulares 5G</p>
+                <p>Planes Hogar</p>
+                <p>Consulta de líneas</p>
+                <p>Test de velocidad de internet</p>
+                <p>Comprobantes electrónicos</p>
+                <p>Llamada por llamada</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
+            <div>
+                <h5 class="mb-3">Nos Hacemos Cargo</h5>
+                <p>Devoluciones por interrupciones</p>
+                <p>Atención de reclamos</p>
+                <p>Consulta de reclamos</p>
+                <p>Adquirientes iPhone 6, 6S y SE</p>
+                <p>Mensaje de Seguridad</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-5">
+            <h5 class="mb-3">Institucional</h5>
+            <p>Sobre nosotros</p>
+            <p>Sustentabilidad</p>
+            <p>Centro de prensa</p>
+            <p>Trabaja en Claro</p>
+            <p>Proveedores</p>
+            <p>Trabajos de mantenimiento</p>
+            <p>Portal de denuncias</p>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
