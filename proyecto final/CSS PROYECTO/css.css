@@ -1,0 +1,19 @@
+.bg-black{
+background-color:#1f1d1d !important;
+} 
+.rounded{
+    border-radius: 18px;
+}
+.bg-red-500{
+    background-color:#da291c !important;
+
+}
+.bg-amber-400  {
+    background-color: beige !important;
+} 
+.bg-lime-400{
+    background-color: beige !important;
+}
+.bg-emerald-800{
+    background-color: beige !important;
+}
