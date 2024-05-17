@@ -27,37 +27,7 @@
         display: flex;
         justify-content: center;
     }
-    .contenedor-navegador{
-    width: 100%;
-    height:auto;
-    background-color:#da291c;
-    display: flex;
-    align-content:center ;
-    align-items:end;
-    padding: 10px ;
-    }
-    .contenedor-lista{
-    width: 100%;
-    margin: 0 auto; 
-    overflow-x: auto; 
-    overflow-y: visible; 
-    white-space:nowrap; 
-    }
-    ul{
-    text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    }
-    .contenedor-formulario{
-    width:100%;
-    height:100%;
-    background-color:#da291c;
-    text-align: center;
-    padding: 10px;
-    border-bottom:0;
-}
-    .bg-cabezera{
+    .bg-nav{
         background-color: rgba(218,41,28,255) !important;
     }
     .logoclaro{
@@ -133,25 +103,38 @@
 
 </style>
 <body>
-    <header class=" bg-cabezera">
-        <div>
-        </div>
-        <nav class="navbar navbar-expand-md">
-            <a href="http://127.0.0.1:5500/Trabajo-grupal/inicio%20de%20pagina/index.html"> <img class="" style="width: 100px; height: 45px;" src="./img/clarologonav.PNG" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="./img/clarologonav.PNG" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu-nav">
-                    <ul class="ul text-white bg-midclaro navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link" href="">Servicios</a>
-                        <li class="nav-item"><a class="nav-link" href="">Prepago</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/post pago/index.html">Postpago</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/activa tu chip/index.html">Activa tu chip</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Beneficio movil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">veneficios moviles</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Cambiate a claro</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Promociones</a></li>
-                    </ul>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Prepago</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="http://127.0.0.1:5500/Trabajo-grupal/Sthefano/post%20pago/index.html?#">Popstago</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="http://127.0.0.1:5500/Trabajo-grupal/Sthefano/activa%20tu%20chip/index.html">Activa tu chip</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Beneficio móvil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Cambiate a Claro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Promociones</a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </nav>
     </header> 
@@ -315,9 +298,9 @@
             <h2 class="text-center"> Descubre los beneficios de ser parte de claro</h2>
         </div>
         <div class="b-claro row">
-            <img class="col-12 col-md-2 " src="./img/bc 1.PNG" alt="">
-            <img class="col-12 col-md-2 " src="./img/bc 2.PNG" alt="">
-            <img class="col-12 col-md-2 " src="./img/bc 3.PNG" alt="">
+            <img class="col-8 col-md-2 " src="./img/bc 1.PNG" alt="">
+            <img class="col-8 col-md-2 " src="./img/bc 2.PNG" alt="">
+            <img class="col-8 col-md-2 " src="./img/bc 3.PNG" alt="">
         </div>
     </section>
     <section>
@@ -325,13 +308,13 @@
             <h2 class="text-center"> ¿Por qué tener un plan Claro con netflix</h2>
         </div>
         <div class="p-claro row">
-            <img class="col-12 col-md-2 " src="./img/pc 1.PNG" alt="">
-            <img class="col-12 col-md-2 " src="./img/pc 2.PNG" alt="">
-            <img class="col-12 col-md-2 " src="./img/pc 3.PNG" alt="">
+            <img class="col-8 col-md-2 " src="./img/pc 1.PNG" alt="">
+            <img class="col-8 col-md-2 " src="./img/pc 2.PNG" alt="">
+            <img class="col-8 col-md-2 " src="./img/pc 3.PNG" alt="">
         </div>
     </section>
     <section class="mline">
-        <div class="d-flex justify-content-around row">
+        <div class="d-flex justify-content-around align-items-center row">
             <div class="col-md-6">
                 <h2 class="text-center text-md-start col-md-12">¿Qué es postpago y cómo funciona?</h2>
                 <p class="text-center text-md-start col-md-12">Un servicio postpago movil, es un tipo de plan de telefonia que funciona pagando por el servicio movil</p>
@@ -343,7 +326,7 @@
         </div>
     </section>
     <section class="mline">
-        <div class="d-flex justify-content-around row">
+        <div class="d-flex justify-content-around align-items-center row">
             <div class="col-md-6">
                 <h2 class="text-center text-md-start col-md-12">Planes Ilimitados de Claro</h2>
                 <h6 class="m-4 text-center text-md-start col-md-12">Cómo funcionan</h6>
@@ -498,7 +481,7 @@
     <footer class="footer text-white pt-5 pb-4">
         <div class="container text-center text-md-start">
         <div class="row text-center text-md-start">
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-5">
             <img class="d-flex justify-content-start" src="./img/clarofooter.PNG" alt="" width="140px" height="60px">
             <div class="d-flex justify-content">
                 <img style="width: 30px; height: 30px;" src="./img/facebookclaroredes.PNG" alt="">

@@ -35,39 +35,7 @@
     .image-vdccmv{
         margin-right: 125px;
     }
-    .contenedor-navegador{
-    width: 100%;
-    height:auto;
-    background-color:#da291c;
-    display: flex;
-    align-content:center ;
-    align-items:end;
-    padding: 50px ;
-    }
-    .contenedor-lista{
-    width: 100%;
-    margin: 0 auto; 
-    overflow-x: auto; 
-    overflow-y: visible; 
-    white-space:nowrap; 
-    }
-    ul{
-    text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: ;
-    list-style: none;
-    }
-    .contenedor-formulario{
-    width:100%;
-    height:100%;
-    background-color:#da291c;
-    text-align: center;
-    padding: 10px;
-    border-bottom:0;
-    border-radius:;
-}
-    .bg-cabezera{
+    .bg-nav{
         background-color: rgba(218,41,28,255) !important;
     }
     .logoclaro{
@@ -80,25 +48,40 @@
     }
 
     </style>
-    <header class=" bg-cabezera">
+    <header>
         <div>
         </div>
-        <nav class="navbar navbar-expand-md">
-            <a href="http://127.0.0.1:5500/Trabajo-grupal/inicio%20de%20pagina/index.html"> <img class="" style="width: 100px; height: 45px;" src="./img/clarologonav.PNG" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="./img/clarologonav.PNG" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu-nav">
-                    <ul class="ul text-white bg-midclaro navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link" href="">Servicios</a>
-                        <li class="nav-item"><a class="nav-link" href="">Prepago</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/post pago/index.html">Postpago</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/Trabajo-grupal/Sthefano/activa tu chip/index.html">Activa tu chip</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Beneficio movil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">veneficios moviles</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Cambiate a claro</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Promociones</a></li>
-                    </ul>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Prepago</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="http://127.0.0.1:5500/Trabajo-grupal/Sthefano/post%20pago/index.html?#">Popstago</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="http://127.0.0.1:5500/Trabajo-grupal/Sthefano/activa%20tu%20chip/index.html">Activa tu chip</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Beneficio móvil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Cambiate a Claro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Promociones</a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </nav>
     </header> 
@@ -128,7 +111,7 @@
                 <p class="text-center text-md-center">¡Activa tu línea en Prepago con tu Chip Actívalo tú mismo hasta el 31 de octubre y recibirás grandes bonos!</p>
             </div>
             <div class="d-flex justify-content-center row">
-                <img class="m-4 shadow col-12 col-md-3" src="./img/Captura de pantalla (39).png" alt=""><img class="m-4 shadow col-12 col-md-3" src="./img/Captura de pantalla (40).png" alt="">
+                <img class="m-4 shadow col-9 col-md-3" src="./img/Captura de pantalla (39).png" alt=""><img class="m-4 shadow col-9 col-md-3" src="./img/Captura de pantalla (40).png" alt="">
             </div>
         </div>
     </section>
@@ -152,28 +135,28 @@
         </div>
         <div>
             <div class="d-flex justify-content-evenly row m-3">
-                <img class="col-6 col-md-3 p-3" src="./img/tamboclaro.png" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/oxxoclaro.png" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/candyclaro.png" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/maquinaeclaro.png" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/tamboclaro.png" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/oxxoclaro.png" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/candyclaro.png" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/maquinaeclaro.png" alt="">
             </div>
             <div class="d-flex justify-content-evenly row m-3">    
-                <img class="col-6 col-md-3 p-3" src="./img/plazaveaclaro.webp" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/coolboxclaro.webp" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/tailoyclaro.webp" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/inkafarmaclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/plazaveaclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/coolboxclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/tailoyclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/inkafarmaclaro.webp" alt="">
             </div>
             <div class="d-flex justify-content-evenly row m-3">
-                <img class="col-6 col-md-3 p-3" src="./img/mifarmaclaro.webp" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/tottusclaro.webp" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/apuestatotalclaro.webp" alt="">
-                <img class="col-6 col-md-3 p-3" src="./img/huaweiclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/mifarmaclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/tottusclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/apuestatotalclaro.webp" alt="">
+                <img class="col-6 col-md-2 p-3" src="./img/huaweiclaro.webp" alt="">
             </div>
         </div>        
     </section>
     <section>
         <div class="d-flex justify-content-around align-items-center row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <img class="col-12" src="./img/tumismoclaro.webp" alt="">
             </div>
             <div class="col-md-6 col-12 text-center text-md-center mt-4 mb-4">
@@ -185,7 +168,7 @@
     <footer class="footer text-white pt-5 pb-4">
         <div class="container text-center text-md-start">
         <div class="row text-center text-md-start">
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-5">
             <img class="d-flex justify-content-start" src="./img/clarofooter.PNG" alt="" width="140px" height="60px">
             <div class="d-flex justify-content">
                 <img style="width: 30px; height: 30px;" src="./img/facebookclaroredes.PNG" alt="">
