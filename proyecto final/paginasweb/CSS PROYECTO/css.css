@@ -2,7 +2,7 @@
 background-color:#1f1d1d !important;
 } 
 .rounded{
-    border-radius: 18px;
+    border-radius: 18px !important;
 }
 .bg-red-500{
     background-color:#da291c !important;
@@ -17,3 +17,9 @@ background-color:#1f1d1d !important;
 .bg-emerald-800{
     background-color: beige !important;
 }
+
+.imagen-carrucel{
+            scroll-snap-type:x mandatory;
+            scroll-snap-align: start; 
+            flex: 0 0 100%; 
+ 
